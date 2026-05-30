@@ -16,7 +16,7 @@ function App() {
     setNotes("Generating notes...");
 
     try {
-      const response = await fetch("https://ai-notes-genrator.onrender.com/", {
+      const response = await fetch("https://ai-notes-genrator.onrender.com/generate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
